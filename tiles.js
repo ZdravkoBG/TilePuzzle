@@ -1,4 +1,3 @@
-// Zdravko Kemerov, CSE 154 Section AD, HW#8
 // This is the javascript code which initializes the puzzle
 // as solved. This code also allows the user to move tiles in
 // order to complete the game. User can also shuffle tiles.
