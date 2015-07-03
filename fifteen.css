@@ -1,0 +1,37 @@
+/* Zdravko Kemerov, CSE 154 Section AD, HW#9
+   This is the css stylesheet for the baby names page.
+*/
+
+body, button {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+/* Uses the hover pseudo-class to change
+   tile appearance on mouse over */
+.highlight:hover {
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}
+
+/* Added lightgray background for aesthetic value */
+#puzzlearea {
+	background-color: lightgray;
+	height: 400px;
+	margin: auto;
+	position: relative;
+	width: 400px;
+}
+
+/* Added font color white and shadow for visibility */
+.square {
+	border: 5px solid black;
+	color: white;
+	cursor: default;
+	font-size: 40pt;
+	height: 90px;
+	text-shadow: 2px 2px black;
+	width: 90px;
+}
